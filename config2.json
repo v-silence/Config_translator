@@ -1,0 +1,20 @@
+{
+    "_constants": {
+        "BASE_HEALTH": 100,
+        "BASE_DAMAGE": 10
+    },
+    "character": {
+        "name": "Hero",
+        "class": "Warrior",
+        "stats": {
+            "health": "[BASE_HEALTH]",
+            "damage": "[BASE_DAMAGE]",
+            "armor": 50
+        },
+        "inventory": ["sword", "shield", "potion"],
+        "skills": {
+            "attack": "slash",
+            "defense": "block"
+        }
+    }
+}

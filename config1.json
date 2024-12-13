@@ -1,0 +1,16 @@
+{
+    "_constants": {
+        "DEFAULT_PORT": 8080,
+        "MAX_CONNECTIONS": 1000
+    },
+    "server": {
+        "host": "localhost",
+        "port": "[DEFAULT_PORT]",
+        "max_connections": "[MAX_CONNECTIONS]",
+        "paths": {
+            "static": "/static",
+            "templates": "/templates"
+        },
+        "allowed_origins": ["http://localhost:3000", "https://example.com"]
+    }
+}

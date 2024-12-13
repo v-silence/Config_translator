@@ -1,0 +1,22 @@
+{
+    "_constants": {
+        "LOG_LEVELS": ["DEBUG", "INFO", "WARNING", "ERROR"],
+        "DEFAULT_LEVEL": "INFO"
+    },
+    "logging": {
+        "default_level": "[DEFAULT_LEVEL]",
+        "handlers": {
+            "console": {
+                "enabled": true,
+                "format": "'[%%(levelname)s] %%(message)s'"
+            },
+            "file": {
+                "enabled": true,
+                "path": "/var/log/app.log",
+                "max_size": 1048576,
+                "backups": 3
+            }
+        },
+        "allowed_levels": "[LOG_LEVELS]"
+    }
+}
